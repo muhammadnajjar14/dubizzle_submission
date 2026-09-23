@@ -60,7 +60,8 @@ uv venv
 .venv\Scripts\activate (Or follow activation message on screen- it differed when I tried)
 uv pip install -e .
 
-If you face a problem with the above try: uv pip install -r pyproject.toml
+I faced a problem with the above once. If needed, try:
+uv pip install -r pyproject.toml
 ```
 
 ### 3. Configure the Gemini API key
