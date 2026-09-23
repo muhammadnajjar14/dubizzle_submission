@@ -1,0 +1,18 @@
+[project]
+name = "dubizzle-car-assistant"
+version = "0.1.0"
+description = "An agentic conversational AI prototype for dubizzle cars featuring long-term memory, inventory SQL retrieval, and deterministic booking guardrails."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "streamlit",
+    "litellm",
+    "pandas",
+    "openpyxl",
+    "requests",
+    "pydantic",
+    "tenacity",
+    "pytest",
+]
